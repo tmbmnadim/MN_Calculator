@@ -140,9 +140,18 @@ class _CGPACalculatorState extends State<CGPACalculator> {
                             vertical: 15,
                             horizontal: 25,
                           ),
-                          textStyle: const TextStyle(fontSize: 22),
+                          textStyle: const TextStyle(
+                            fontSize: 22,
+                            color: Colors.white,
+                          ),
                         ),
-                        child: const Text("Calculate CGPA"),
+                        child: const Text(
+                          "Calculate CGPA",
+                          style: TextStyle(
+                            fontSize: 22,
+                            color: Colors.white,
+                          ),
+                        ),
                       )
                     ],
                   ),
